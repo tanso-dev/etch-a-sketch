@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Audiowide',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: .15rem;
+}
+button{
+    font-family: 'Audiowide',sans-serif;
+    font-size: 1rem;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.flex-container-h{
+    display:flex;
+    margin:auto;
+    align-items:center;
+    justify-content: center;
+}
+.flex-container-v{
+    display:flex;
+    flex-direction: column;
+    gap: .4em;
+}
+.flex-item-h{
+    flex: 1;
+    margin:auto;
+}
+.flex-item-v{
+    flex: 1;
+}
+.etch-sketch{
+    margin-top: 3rem;
+}
+.etch-sketch_grid{
+    background-color: white;
+    border: 25px solid #444;
+    border-radius: .5em;
+    height: 600px;
+    width: 600px;
+    box-shadow: 2px 4px 8px rgba(0,0,0, .3);
+    display: grid;
+}
+.etch-sketch_controls{
+    border: 2px solid #444;
+    background-color: #444;
+    border-radius: .5rem 0px 0px .5rem;
+    padding:2rem 2rem 2rem 2rem;
+    color: white;
+    box-shadow: 2px 4px 8px rgba(0,0,0, .3)
+}
+.section-title{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 1.4rem;
+}
+input[type="color"]{
+    height: 50px;
+    width: 175px;
+    accent-color: #F55050;
+}
+
+button:hover{
+    background-color:rgb(230, 255, 194);
+    border-color:rgb(230, 255, 194);
+}
+button.active{
+    background-color:rgb(194, 255, 103) !important;
+    border-style:inherit;
+}
+
+input[type="range"]{
+    accent-color: rgb(194,255,103);
+    background: white;
+    width: 100%;
+}
+.grid-item{
+    border: 1px solid #bbb;
+}
+
+
