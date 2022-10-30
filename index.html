@@ -20,15 +20,16 @@
                 <div class="etch-sketch_controls">
                     <p class="section-title">Color</p>
                     <input id="colorPicker" type="color" value="#333333" />
-                    <div class="flex-container-v">
+                    <div id="buttonContainer" class="flex-container-v">
                         <p class="section-title">Brushes</p>
-                        <button class="flex-item-v active">Pen</button>
-                        <button class="flex-item-v">Watercolor</button>
-                        <button class="flex-item-v">Rainbow</button>
+                        <button id="penBtn" class="flex-item-v color-modes active">Pen</button>
+                        <!--<button id="watercolorBtn" class="flex-item-v">Watercolor</button>-->
+                        <button id="rainbowBtn" class="flex-item-v color-modes">Rainbow</button>
                         <p class="section-title">Utilities</p>
-                        <button class="flex-item-v">Eraser</button>
-                        <button class="flex-item-v">Clear</button>
-                        <button class="flex-item-v" style="margin-top: .75rem;">Toggle Grid Lines</button>
+                        <button id="eraserBtn" class="flex-item-v">Hard Eraser</button>
+                        <!--<button id="softEraserBtn" class="flex-item-v">Soft Eraser</button>-->
+                        <button id="clearBtn" class="flex-item-v">Clear</button>
+                        <button id="gridToggleBtn" class="flex-item-v" style="margin-top: .75rem;">Toggle Grid Lines</button>
                     </div>
                     <p class="section-title">Canvas Size</p>
                     <div id="sizeValue" class="size-value">16 x 16</div>

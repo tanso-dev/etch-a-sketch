@@ -74,7 +74,6 @@ button:hover{
 }
 button.active{
     background-color:rgb(194, 255, 103) !important;
-    border-style:inherit;
 }
 
 input[type="range"]{
@@ -82,8 +81,11 @@ input[type="range"]{
     background: white;
     width: 100%;
 }
-.grid-item{
-    border: 1px solid #bbb;
+.etch-sketch_grid .grid-item{
+    border: 1px solid rgba(0,0,0,0);
+}
+.etch-sketch_grid.show-lines .grid-item{
+    border: 1px solid rgba(0,0,0, .2);
 }
 
 
